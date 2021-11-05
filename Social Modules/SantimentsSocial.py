@@ -2,6 +2,7 @@ import requests
 import json
 import time
 import datetime
+import tabulate
 
 # Get 30 days
 today =  datetime.date.today()
@@ -102,13 +103,8 @@ else:
 	print("\n====== Total Social Volume over 3 months ======\n")
 	
 	totalVol = 0
-	
-	print("Date\t\t\t", end="")
-	print("Value")
+	print(tabulate.tabulate(volJsonDict, headers={"Date":"Date", "Value":"Value"}, tablefmt="github"))
 	for i in volJsonDict:
-		print(i.get("datetime"), end="")
-		print("\t", end="")
-		print(i.get("value"))
 		totalVol += i.get("value")
 	
 	print("\nTotal volume:", round(totalVol))
@@ -117,13 +113,9 @@ else:
 	print("\n====== Total Social Dominance over 3 months ======\n")
 
 	totalDom = 0
-	
-	print("Date\t\t\t", end="")
-	print("Value")
+
+	print(tabulate.tabulate(domJsonDict, headers={"Date": "Date", "Value": "Value"}, tablefmt="github"))
 	for i in domJsonDict:
-		print(i.get("datetime"), end="")
-		print("\t", end="")
-		print(i.get("value"))
 		totalDom += i.get("value")
 	
 	print("\nTotal Social Dominance :", round(totalDom))
@@ -133,12 +125,8 @@ else:
 
 	totalPos = 0
 	
-	print("Date\t\t\t", end="")
-	print("Value")
+	print(tabulate.tabulate(posJsonDict, headers={"Date": "Date", "Value": "Value"}, tablefmt="github"))
 	for i in posJsonDict:
-		print(i.get("datetime"), end="")
-		print("\t", end="")
-		print(i.get("value"))
 		totalPos += i.get("value")
 	
 	print("\nTotal Positive Sentiment:", round(totalPos))
@@ -148,12 +136,8 @@ else:
 
 	totalNeg = 0
 	
-	print("Date\t\t\t", end="")
-	print("Value")
+	print(tabulate.tabulate(negJsonDict, headers={"Date": "Date", "Value": "Value"}, tablefmt="github"))
 	for i in negJsonDict:
-		print(i.get("datetime"), end="")
-		print("\t", end="")
-		print(i.get("value"))
 		totalNeg += i.get("value")
 	
 	print("\nTotal Negative Sentiment:", round(totalNeg))
@@ -163,12 +147,8 @@ else:
 
 	totalUni = 0
 	
-	print("Date\t\t\t", end="")
-	print("Value")
+	print(tabulate.tabulate(uniJsonDict, headers={"Date": "Date", "Value": "Value"}, tablefmt="github"))
 	for i in uniJsonDict:
-		print(i.get("datetime"), end="")
-		print("\t", end="")
-		print(i.get("value"))
 		totalUni += i.get("value")
 	
 	print("\nTotal Unique Traffic:", round(totalUni))
