@@ -17,7 +17,7 @@ global WHITEPAPERSCORE
 tool = language_tool_python.LanguageTool('en-US')
 dictionary =     enchant.Dict("en_US")
 output_string = StringIO()
-filename= "../WhitePaper_Folder/whitepaper.pdf"
+filename = "WhitePaper_Folder/whitepaper.pdf"
 
 spinner = MoonSpinner("Analyzing")
 
@@ -84,4 +84,5 @@ try:
 
 except FileNotFoundError:
     msg = "Sorry the Whitepaper (" + filename + ") does not exist."
+    WHITEPAPERSCORE = 0
     print(msg)
