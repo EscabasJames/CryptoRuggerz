@@ -5,7 +5,7 @@ import re
 
 headers = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36"}
 holderListResp = requests.get("https://etherscan.io/token/generic-tokenholders2?m=normal&a=0x4688a8b1f292fdab17e9a90c8bc379dc1dbd8713&s=100000000000000000000000000&sid=0x2859e4544c4bb03966803b044a93563bd2d0dd4d&p=1", headers=headers)
-totalSupplyResp = requests.get("https://etherscan.io/token/0x4688a8b1f292fdab17e9a90c8bc379dc1dbd8713*#balances", headers=headers)
+totalSupplyResp = requests.get("https://etherscan.io/token/0x4688a8b1f292fdab17e9a90c8bc379dc1dbd8713#balances", headers=headers)
 
 sel = Selector(holderListResp.text)
 newSel = Selector(totalSupplyResp.text)
