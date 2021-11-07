@@ -3,4 +3,4 @@ A program that gathers information on cryptocurrencies; to determine whether cry
 
 # Starting
 We can enter choose whether to use the BSC or Ethereum chains
-![Starting](USER GUIDE/Images/start.jpeg)
+![alt text](https://github.com/EscabasJames/CryptoRuggerz/USER GUIDE/Images/start.jpg?raw=true)
