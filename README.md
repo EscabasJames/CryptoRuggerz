@@ -44,6 +44,12 @@ Checks twitter account for the activity of the social media account
 Checks whitepaper for grammatical errors or how sound the paper is
 ![alt text](https://github.com/EscabasJames/CryptoRuggerz/blob/master/USER%20GUIDE/Images/whitepaper.jpg)
 
+# Background Check
+Able to do background checks on users
+![alt text](https://github.com/EscabasJames/CryptoRuggerz/blob/master/USER%20GUIDE/Images/backgroundcheck.jpg)
+![alt text](https://github.com/EscabasJames/CryptoRuggerz/blob/master/USER%20GUIDE/Images/backgroundcheck2.jpg)
+![alt text](https://github.com/EscabasJames/CryptoRuggerz/blob/master/USER%20GUIDE/Images/backgroundcheck3.jpg)
+
 # Results
 Shows the final guestimation of the cryptocurrecny's pump and dump score
 ![alt text](https://github.com/EscabasJames/CryptoRuggerz/blob/master/USER%20GUIDE/Images/results.jpg)
