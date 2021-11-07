@@ -3,6 +3,8 @@ from telethon import functions, types
 from datetime import datetime, timedelta
 import json
 import tabulate
+import colorama
+from colorama import Fore
 
 # Use our own API key and App ID
 api_id = 17232835
@@ -49,4 +51,7 @@ totalMentions = 0
 for i in mentionList[1:]:
     totalMentions += int(i[1])
 
-print("\nQuery has been mentioned a total of", totalMentions, "time(s)!")
+if totalMentions != 0:
+    print(Fore.RED + "\nQuery has been mentioned a total of", totalMentions, "time(s)!")
+else:
+    print(Fore.GREEN + "\nQuery has been mentioned a total of", totalMentions, "time(s)!")
