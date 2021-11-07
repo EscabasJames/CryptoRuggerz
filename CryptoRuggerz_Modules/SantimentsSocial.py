@@ -14,7 +14,7 @@ print(Fore.LIGHTGREEN_EX + "\n============ STARTING SOCIAL METRIC CHECK ========
 
 # Get 30 days
 today = datetime.date.today()
-d1 = today.strftime("%-%m-%d")
+d1 = today.strftime("%Y-%m-%d")
 
 three_months = datetime.timedelta(4*365/12)
 dateFrom3Months = (today - three_months)
