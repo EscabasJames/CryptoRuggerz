@@ -22,6 +22,7 @@ Show's how active developers are on the project
 
 # Get Average Coin age
 Shows how new a cryptocurrency is
+
 ![alt text](https://github.com/EscabasJames/CryptoRuggerz/blob/master/USER%20GUIDE/Images/meanage.jpg)
 
 # Social Metrics
