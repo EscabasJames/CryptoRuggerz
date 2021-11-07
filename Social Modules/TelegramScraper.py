@@ -44,3 +44,9 @@ with TelegramClient('anon', api_id, api_hash) as client:
 #     gp1List.append(i.message)
 
 print(tabulate.tabulate(mentionList, headers="firstrow", tablefmt="github"))
+totalMentions = 0
+
+for i in mentionList[1:]:
+    totalMentions += int(i[1])
+
+print("\nQuery has been mentioned a total of", totalMentions, "time(s)!")
