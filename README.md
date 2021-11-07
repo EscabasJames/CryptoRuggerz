@@ -46,3 +46,4 @@ Checks whitepaper for grammatical errors or how sound the paper is
 # Results
 Shows the final guestimation of the cryptocurrecny's pump and dump score
 ![alt text](https://github.com/EscabasJames/CryptoRuggerz/blob/master/USER%20GUIDE/Images/results.jpg)
+![alt text](https://github.com/EscabasJames/CryptoRuggerz/blob/master/USER%20GUIDE/Images/2020meme.jpg)
