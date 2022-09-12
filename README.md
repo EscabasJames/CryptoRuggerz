@@ -27,6 +27,7 @@ Shows how new a cryptocurrency is
 
 # Social Metrics
 Getting the social metrics of the cryptocurrency
+
 ![alt text](https://github.com/EscabasJames/CryptoRuggerz/blob/master/USER%20GUIDE/Images/social.jpg)
 ![alt text](https://github.com/EscabasJames/CryptoRuggerz/blob/master/USER%20GUIDE/Images/social2.jpg)
 
